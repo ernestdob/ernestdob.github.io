@@ -1,0 +1,57 @@
+body {
+	background-image: url(img/coolbackground.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top center;
+}
+
+/*body {
+	background-image: url(img/Webdesign.jpg);
+	background-repeat: no-repeat;
+	background-size: 300px 500px;
+	background-attachment: fixed;
+	background-position: top center;
+}
+*/
+
+@font-face {
+	font-family: "RobotoCondensedRegular";
+	src: url(fonts/RobotoCondensedRegular.ttf) format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+
+h1 {
+	font-family: "RobotoCondensedRegular";
+}
+
+body {
+	font-family: "RobotoCondensedRegular";
+}
+
+a { 
+    text-decoration: none;
+   }
+
+.ernest {
+	width: 350px;
+	height: 350px;
+	overflow:hidden;
+}
+
+.ernest img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.ernest img:hover{
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+
+.p1 {
+	padding: 20px 10px;
+ }
